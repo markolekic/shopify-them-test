@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 360px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 0px;
+    transform: scaleY(1.4);
+    text-transform: uppercase;
+}
+
+p {
+    padding: 2em 0 2em 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-stretch: expanded;
+}
+
+.main-nav {
+    padding: 10px 0 10px 0;
+    background-color: #937f66;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: baseline;
+}
+
+.main-nav ul {
+    display: inline-flex;
+}
+
+.main-nav li {
+    margin: 0 1em;
+}
+
+.main-nav a {
+    color: #fff;
+}
+
+.search-section input {
+    padding: 0.2em;
+}
+
+navbar {
+    background-color: black;
+    display: flex;
+}
+
+navbar a {
+    color: #fff;
+}
+
+navbar img {
+    width: 130px;
+    padding: 0.7em 0;
+    margin: 0 1em;
+}
+
+navbar li {
+    margin: 0 2em;
+    font-family: Heletica,
+        sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-stretch: 50%;
+    font-size: 1.5em;
+    transition: ease-in-out 0.3s;
+}
+
+.nav-list {
+    align-self: center;
+    margin: 0 auto;
+    transition: ease-in-out 0.3s;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.navlist-centered a:hover {
+    letter-spacing: 2px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 4.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 25px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.home-img {
+    background-image: url("img/backpacker.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    margin: 0;
+}
+
+.home-img .red-btn {
+    margin-left: 1.6em;
+}
+
+#home h1 {
+    font-size: 4em;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#home h1::after {
+    content: 'Awesome Coffee that Gives Back';
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 0.5em;
+    font-weight: 400;
+    letter-spacing: 3px;
+    transform: scaleY(0.8);
+    top: 80px;
+    left: 5px;
+}
+
+.red-btn {
+    font-family: 'Archivo Narrow', sans-serif;
+    background-color: #700000;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 1em;
+    font-size: 1.6em;
+    border-radius: 3px;
+    transform: scaleY(1.3);
+    font-weight: 700;
+    padding: 3px 15px;
+    transition: ease-in-out 0.3s;
+}
+
+.red-btn:hover {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 2px 2px 4px #000000;
+    ;
+}
+
+#js-count-coffie {
+    background-color: black;
+    color: #fff;
+}
+
+#js-count-coffie span {
+    color: #937f66;
+    font-weight: 700;
+}
+
+.number-count {
+    text-align: center;
+    font-size: 4em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: lowercase;
+    transform: scaleY(1.1);
+    font-weight: 400;
+}
+
+#bellow-counter {
+    background-image: url("img/coffee bean background crop_coffee bean background crop.png");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 5em 0 5em 0;
+}
+
+#bellow-counter h1 {
+    padding-bottom: 0.7em;
+    color: white;
+    font-size: 4em;
+}
+
+.star-list {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    padding-bottom: 1.7em;
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.star-list li {
+    margin: 0 1em;
+}
+
+/*Cause - section */
+
+#cause img {
+    width: 87%;
+    padding: 20px;
+}
+
+#cause h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+#cause p {
+    color: white;
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.first-cause,
+.second-cause,
+.third-cause {
+    display: flex;
+    background-color: black;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.2em;
+}
+
+.first-cause .red-btn {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.aside-container-left,
+.aside-container-right,
+.relax-image,
+.wedding-image,
+.shooting-image {
+    width: 45%;
+}
+
+.second-cause {
+    background-color: #937f66;
+}
+
+/*Clients - section */
+
+#clients h2 {
+    background-color: #937f66;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.clients-slider {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 6em;
+    padding-bottom: 5em;
+}
+
+.clients-slider img {
+    width: 20%;
+    height: 20%;
+}
+
+/*Follow Us - section */
+
+#follow-us {
+    background-color: #937f66;
+}
+
+#follow-us h2 {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*Instagram - Section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-bottom: 1em;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Footer*/
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 0;
+    color: #937f66;
+}
+
+footer a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.center-logo img {
+    width: 150px;
+    padding-top: 20px;
+}
+
+.right-side h2 {
+    color: #937f66;
+    padding-bottom: 0.7em;
+}
+
+footer a {
+    color: #937f66;
+}
+
+footer input {
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #937f66;
+    width: 200px;
+}
+
+footer input::placeholder {
+    color: #937f66;
+    opacity: 1;
+    font-size: 1.2em;
+}
+
+h4 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    background: #937f66;
+    color: white;
+    font-size: 1.4em;
+}
+
+/* MEDIA QUERIES*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+    navbar li {
+        margin: 0 1.4em;
+    }
+
+    .first-cause .red-btn {
+        flex-direction: column;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #cause p {
+        font-size: 1.7em;
+    }
+
+    .aside-container-right h1,
+    .aside-container-left h1 {
+        transform: scaleY(1);
+    }
+
+    .aside-container-right p,
+    .aside-container-left p {
+        transform: scaleY(1.3);
+        padding: 1.5em 0 1.5em 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    navbar li {
+        margin: 0 0.6em;
+        font-size: 1.2em;
+    }
+
+    .home-img {
+        height: 700px;
+    }
+
+    h1,
+    .number-count,
+    #bellow-counter h1 {
+        font-size: 3.7em;
+    }
+
+    #cause p {
+        font-size: 1.4em;
+    }
+
+    .first-cause .red-btn,
+    .third-cause .red-btn {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .aside-container-right p,
+    .aside-container-left p {
+        transform: scaleY(1.3);
+        padding: 1.3em 0 1.3em 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .home-img {
+        height: 600px;
+    }
+
+    .aside-container-right p,
+    .aside-container-left p {
+        transform: scaleY(1);
+        padding: 1em 0 1em 0;
+        font-size: 1.4em;
+    }
+
+    .first-cause .red-btn,
+    .third-cause .red-btn {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    h1,
+    .number-count,
+    #bellow-counter h1 {
+        font-size: 3.4em;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+}
+
+/* Needed breakpoint (landscape tablets, 607px and up) */
+@media only screen and (max-width: 607px) {
+
+    .first-cause .red-btn,
+    .third-cause .red-btn {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .aside-container-right,
+    .aside-container-left {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+    }
+
+    .list-centered {
+        padding: 1.5em 2em;
+        margin-right: 1em;
+        align-items: flex-end;
+    }
+
+    .home-img {
+        height: 500px;
+    }
+
+    #cause p {
+        font-size: 1.2em;
+        text-align: center;
+        padding: 0.3em 0 0.9em;
+    }
+
+    .first-cause,
+    .second-cause,
+    .third-cause {
+        flex-direction: column;
+    }
+
+    .aside-container-left:nth-child(1) {
+        order: 1;
+    }
+
+    .first-cause .red-btn,
+    .third-cause .red-btn {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    h1,
+    .number-count {
+        font-size: 2em;
+    }
+
+    .star-list {
+        flex-direction: column;
+        padding-bottom: 1.7em;
+        font-size: 2.2em;
+    }
+
+    .difference .red-btn {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+    #home h1::after {
+        top: 160px;
+    }
+}
+
+/* XSmall devices (portrait tablets and large phones, 536px and up) */
+@media only screen and (max-width: 536px) {
+
+    .home-img .red-btn {
+        margin-top: 1.8em;
+        bottom: 50px;
+    }
+}
