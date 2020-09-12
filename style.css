@@ -351,6 +351,10 @@ footer a {
     color: #937f66;
 }
 
+.our-info a{
+    color: white;
+}
+
 footer input {
     background-color: black;
     border: none;
